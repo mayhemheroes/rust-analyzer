@@ -14,7 +14,7 @@ cargo-fuzz = true
 
 [dependencies]
 syntax = { path = "..", version = "0.0.0" }
-text_edit = { path = "../../text_edit", version = "0.0.0" }
+text-edit = { path = "../../text-edit", version = "0.0.0" }
 libfuzzer-sys = { git = "https://github.com/rust-fuzz/libfuzzer-sys.git" }
 
 # Prevent this from interfering with workspaces
