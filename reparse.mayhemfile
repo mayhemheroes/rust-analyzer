@@ -1,0 +1,5 @@
+project: rust-analyzer
+target: reparse
+
+cmds:
+  - cmd: /reparse
