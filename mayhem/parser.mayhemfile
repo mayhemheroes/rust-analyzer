@@ -1,0 +1,5 @@
+project: rust-analyzer
+target: parser
+
+cmds:
+  - cmd: /parser
