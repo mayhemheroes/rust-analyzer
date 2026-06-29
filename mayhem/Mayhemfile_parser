@@ -1,0 +1,6 @@
+project: rust-analyzer
+target: parser
+
+cmds:
+  - cmd: /mayhem/parser
+    libfuzzer: true
